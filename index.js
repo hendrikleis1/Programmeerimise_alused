@@ -8,13 +8,13 @@
 
 // document.getElementById("myH1").textContent = `Hello`;
 // Variable is a container to store values.
-let fullname = "Brocode";
-let agenum = 25;
-let isStudent = false;
-// You can check a variables type by console.log(typeof "variable")
-document.getElementById("p1").textcontent = `Your name is ${fullname}.`;
-document.getElementById("p2").textcontent = `You are ${agenum} years old.`;
-document.getElementById("p3").textcontent = `Enrolled: ${isStudent}.`;
+// let fullname = "Brocode";
+// let agenum = 25;
+// let isStudent = false;
+// // You can check a variables type by console.log(typeof "variable")
+// document.getElementById("p1").textcontent = `Your name is ${fullname}.`;
+// document.getElementById("p2").textcontent = `You are ${agenum} years old.`;
+// document.getElementById("p3").textcontent = `Enrolled: ${isStudent}.`;
 
 /* this is 
     a
@@ -35,7 +35,7 @@ document.getElementById("p3").textcontent = `Enrolled: ${isStudent}.`;
 
 // Arithmetic operators are operands (variables, values, ...)
 //                      operators (+ - * /)
-let students = 30;
+//let students = 30;
 
 //students = students + 1;
 // students = students -1;
@@ -51,7 +51,7 @@ let students = 30;
 // students **= 2
 // students %= 2;
 
-console.log(students);
+//console.log(students);
 
 /* Operator precedence
     Parantheses ()
@@ -88,9 +88,9 @@ console.log(students);
 // console.log(z, typeof z);
 
 // const is a variable, that can not be changed
-const pi = 3.14;
-let radius;
-let circumference;
+// const pi = 3.14;
+// let radius;
+// let circumference;
 
 // radius = window.prompt("Enter the radius of a circle");
 // radius = Number(radius);
@@ -99,9 +99,25 @@ let circumference;
 
 // console.log(circumference);
 
-document.getElementById("mySubmit1").onclick = function () {
-  document.getElementById("myText1").value;
-  radius = Number(radius);
-  circumference = 2 * pi * radius;
-  document.getElementById("myH12").textcontent = circumference + "cm";
-};
+// document.getElementById("mySubmit1").onclick = function () {
+//   document.getElementById("myText1").value;
+//   radius = Number(radius);
+//   circumference = 2 * pi * radius;
+//   document.getElementById("myH12").textContent = circumference + "cm";
+// };
+// Math is a built-in object for mathematical properties and methods
+let x = 3.21;
+let y = 2;
+let z;
+
+//z = Math.round(x);
+//z = Math.floor(x);
+//z = Math.ceil(x);
+//z = Math.trunc(x);
+//z = Math.pow(x, y);
+//z = Math.sqrt(x);
+//z = Math.log(x);
+//z = Math.sin(x);
+
+z = Math.round(x);
+console.log(z);
