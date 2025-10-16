@@ -88,13 +88,20 @@ console.log(students);
 // console.log(z, typeof z);
 
 // const is a variable, that can not be changed
-let pi = 3.14;
+const pi = 3.14;
 let radius;
 let circumference;
 
-radius = window.prompt("Enter the radius of a circle");
-radius = Number(radius);
+// radius = window.prompt("Enter the radius of a circle");
+// radius = Number(radius);
 
-circumference = 2 * pi * radius;
+// circumference = 2 * pi * radius;
 
-console.log(circumference);
+// console.log(circumference);
+
+document.getElementById("mySubmit1").onclick = function () {
+  document.getElementById("myText1").value;
+  radius = Number(radius);
+  circumference = 2 * pi * radius;
+  document.getElementById("myH12").textcontent = circumference + "cm";
+};
