@@ -3,7 +3,11 @@
 const minNum = 1;
 const maxNum = 100;
 const answer = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
-let userGuess = Number(window.prompt("Guess an integer between 1 and 100: "));
+let userGuess = Number(
+  window.prompt(
+    "Guess an integer between 1 and 100 ja selle jaoks om 10 katset: "
+  )
+);
 let counter = 1;
 for (counter; counter <= 10; counter++) {
   if (isNaN(userGuess)) {
@@ -25,7 +29,8 @@ for (counter; counter <= 10; counter++) {
   } else if (userGuess > answer) {
     userGuess = Number(window.prompt("Too high! Try again: "));
     window.alert("You have " + (10 - counter) + " attempts left.");
-  } else {
+  }
+  if (counter == 10) {
     window.alert(
       "Sorry, you've used all 10 attempts. The correct number was " +
         answer +
