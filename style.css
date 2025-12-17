@@ -22,3 +22,42 @@ input {
   font-weight: bold;
   font-size: 3rem;
 }
+
+
+
+#myBox {
+  width: 300px;
+  height: 300px;
+  font-size: 4.5rem;
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+#myButton {
+  font-size: 3rem;
+}
+#myH1{
+  font-size: 3rem;
+}
+#myButton{
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+.enabled{
+  background-color: lightgreen;
+  color: white;
+}
+.hover{
+  box-shadow: 0 0 10px gray;
+  font-weight: bold;
+}
+.disabled{
+  background-color: lightgray;
+  color: darkgray;
+}
+
